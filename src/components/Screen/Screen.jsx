@@ -1,9 +1,12 @@
 import React from "react";
 import PT from "prop-types";
+import FitText from "react-textfit";
 import { ScreenWrapper } from "./Screen.styles";
 
 const Screen = ({ currentNumber, isAnimated }) => (
-  <ScreenWrapper isAnimated={isAnimated}>{currentNumber}</ScreenWrapper>
+  <ScreenWrapper isAnimated={isAnimated}>
+    <FitText mode="single">{currentNumber}</FitText>
+  </ScreenWrapper>
 );
 
 Screen.propTypes = {
