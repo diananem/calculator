@@ -24,5 +24,5 @@ export const ButtonWrapper = styled.button`
   background-image: ${props =>
     props.backgroundImage ? props.backgroundImage : "none"};
   opacity: ${props => (props.opacity ? props.opacity : "1")};
-  box-shadow: ${props => (props.isLong ? "5px 20px 81px 0 #f60e4a;" : "0")};
+  box-shadow: ${props => (props.isLong ? "0px 0px 50px 0 #ff0080;" : "0")};
 `;
