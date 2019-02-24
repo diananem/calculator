@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "add": "^2.0.6",
+    "emotion": "^10.0.7",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "yarn": "^1.13.0"
   },
   "scripts": {
     "start": "react-scripts start",
